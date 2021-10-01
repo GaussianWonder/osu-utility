@@ -50,9 +50,10 @@ And then pack files under `extension`, you can upload `extension.crx` or `extens
 
 <p align="center">
 <sub>Share QR</sub><br />
-<img src="./extension/assets/repo_qr.png" width="128px" height="128px" /><br />
+<!-- <img src="https://raw.githubusercontent.com/GaussianWonder/osu-utility/main/extension/assets/repo_qr.png" width="225px" height="225px" /><br /> -->
+<img src="./extension/assets/repo_qr.png" width="225px" height="225px" /><br />
 <sub>
-<sub><b>QR URL:</b></sub><br />
+<sub><b>QR image URL:</b></sub><br />
 <sub>https://raw.githubusercontent.com/GaussianWonder/osu-utility/main/extension/assets/repo_qr.png</sub><br />
 </sub>
 </p>
