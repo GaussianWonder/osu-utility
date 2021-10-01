@@ -6,8 +6,6 @@ import { isDev, port, r } from '../scripts/utils'
 export async function getManifest() {
   const pkg = await fs.readJSON(r('package.json')) as typeof PkgType
 
-  // update this file to update this manifest.json
-  // can also be conditional based on your need
   const manifest: Manifest.WebExtensionManifest = {
     manifest_version: 2,
     name: pkg.displayName || pkg.name,
@@ -27,9 +25,10 @@ export async function getManifest() {
       persistent: false,
     },
     icons: {
-      16: './assets/icon-512.png',
-      48: './assets/icon-512.png',
-      128: './assets/icon-512.png',
+      16: './assets/icon-16.png',
+      48: './assets/icon-48.png',
+      128: './assets/icon-128.png',
+      512: './assets/icon-512.png',
     },
     permissions: [
       'tabs',
